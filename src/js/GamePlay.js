@@ -28,7 +28,6 @@ export default class GamePlay {
    */
   drawUi(theme) {
     this.checkBinding();
-
     this.container.innerHTML = `
       <div class="controls">
         <button data-id="action-restart" class="btn">New Game</button>
