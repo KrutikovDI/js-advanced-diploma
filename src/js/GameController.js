@@ -1,4 +1,7 @@
-import themes from './themes'
+import { prairie } from './themes';
+import { desert } from './themes';
+import { arctic } from './themes';
+import { mountain } from './themes';
 
 export default class GameController {
   constructor(gamePlay, stateService) {
@@ -7,7 +10,7 @@ export default class GameController {
   }
 
   init() {
-    this.gamePlay.drawUi(themes.prairie)
+    this.gamePlay.drawUi(prairie)
     // TODO: add event listeners to gamePlay events
     // TODO: load saved stated from stateService
   }
